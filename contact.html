@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact CloudWingz - Get in touch for cloud solutions, support, and consultations">
+    <title>CloudWingz - Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container container">
+                <div class="nav-logo">
+                    <a href="index.html">CloudWingz</a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="features.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <div class="page-header-content">
+                    <h1>Contact <span class="gradient-text">Us</span></h1>
+                    <p>Ready to transform your business? Get in touch with our cloud experts today</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info" data-aos="fade-right">
+                        <h2>Get In Touch</h2>
+                        <p>Have questions about our services? Need a custom solution? Our team of cloud experts is here
+                            to help.</p>
+
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="contact-icon">📧</div>
+                                <div class="contact-details">
+                                    <h4>Email Us</h4>
+                                    <p><strong>General Inquiries:</strong><br>info@cloudwingz.com</p>
+                                    <p><strong>Support:</strong><br>support@cloudwingz.com</p>
+                                    <p><strong>Sales:</strong><br>sales@cloudwingz.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="contact-icon">📞</div>
+                                <div class="contact-details">
+                                    <h4>Call Us</h4>
+                                    <p><strong>Main Line:</strong> +234 807 320 8945</p>
+                                    <p><strong>Support:</strong> +234 807 320 8945</p>
+                                    <p><strong>Hours:</strong> Mon-Fri 9AM-6PM WAT</p>
+                                    <p><strong>Emergency:</strong> 24/7 for Enterprise clients</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="contact-icon">📍</div>
+                                <div class="contact-details">
+                                    <h4>Visit Us</h4>
+                                    <p><strong>Headquarters:</strong></p>
+                                    <p>Delta, Nigeria<br></p>
+                                    <p><strong>Office Hours:</strong> Mon-Fri 9AM-5PM</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="contact-icon">💬</div>
+                                <div class="contact-details">
+                                    <h4>Live Chat</h4>
+                                    <p><strong>Availability:</strong> 24/7</p>
+                                    <p><strong>Response Time:</strong> Under 5 minutes</p>
+                                    <button class="chat-btn" onclick="openChat()">Start Live Chat</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-contact">
+                            <h4>Follow Us</h4>
+                            <div class="social-links large">
+                                <a href="#" aria-label="Facebook" title="Follow us on Facebook">📘</a>
+                                <a href="#" aria-label="Twitter" title="Follow us on Twitter">🐦</a>
+                                <a href="#" aria-label="LinkedIn" title="Connect on LinkedIn">💼</a>
+                                <a href="#" aria-label="Instagram" title="Follow us on Instagram">📷</a>
+                                <a href="#" aria-label="YouTube" title="Subscribe to our channel">📺</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper" data-aos="fade-left">
+                        <form class="contact-form" id="contactForm" novalidate>
+                            <div class="form-header">
+                                <h3>Send us a Message</h3>
+                                <p>Fill out the form below and we'll get back to you within 24 hours</p>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" required
+                                        placeholder="Enter your first name">
+                                    <span class="error-message" id="firstName-error"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" required
+                                        placeholder="Enter your last name">
+                                    <span class="error-message" id="lastName-error"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" required placeholder="your@email.com">
+                                    <span class="error-message" id="email-error"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+                                    <span class="error-message" id="phone-error"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="company">Company Name</label>
+                                <input type="text" id="company" name="company"
+                                    placeholder="Your company name (optional)">
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="service">Service Interest *</label>
+                                    <select id="service" name="service" required>
+                                        <option value="">Select a service</option>
+                                        <option value="cloud-hosting">Cloud Hosting</option>
+                                        <option value="web-development">Web Development</option>
+                                        <option value="database-management">Database Management</option>
+                                        <option value="security-solutions">Security Solutions</option>
+                                        <option value="migration-services">Migration Services</option>
+                                        <option value="consultation">Technical Consultation</option>
+                                        <option value="custom-solutions">Custom Solutions</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                    <span class="error-message" id="service-error"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="budget">Project Budget</label>
+                                    <select id="budget" name="budget">
+                                        <option value="">Select budget range</option>
+                                        <option value="under-1k">Under $1,000</option>
+                                        <option value="1k-5k">$1,000 - $5,000</option>
+                                        <option value="5k-10k">$5,000 - $10,000</option>
+                                        <option value="10k-25k">$10,000 - $25,000</option>
+                                        <option value="25k-50k">$25,000 - $50,000</option>
+                                        <option value="over-50k">Over $50,000</option>
+                                        <option value="enterprise">Enterprise (Custom Quote)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="urgency">Project Timeline</label>
+                                <select id="urgency" name="urgency">
+                                    <option value="">Select timeline</option>
+                                    <option value="asap">ASAP (Rush Job)</option>
+                                    <option value="1-week">Within 1 week</option>
+                                    <option value="1-month">Within 1 month</option>
+                                    <option value="3-months">Within 3 months</option>
+                                    <option value="6-months">Within 6 months</option>
+                                    <option value="flexible">Flexible timeline</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Project Details *</label>
+                                <textarea id="message" name="message" rows="6"
+                                    placeholder="Tell us about your project requirements, goals, and any specific challenges you're facing..."
+                                    required></textarea>
+                                <span class="error-message" id="message-error"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="hearAbout">How did you hear about us?</label>
+                                <select id="hearAbout" name="hearAbout">
+                                    <option value="">Select an option</option>
+                                    <option value="google">Google Search</option>
+                                    <option value="social-media">Social Media</option>
+                                    <option value="referral">Friend/Colleague Referral</option>
+                                    <option value="advertisement">Online Advertisement</option>
+                                    <option value="conference">Conference/Event</option>
+                                    <option value="blog">Blog/Article</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="newsletter" name="newsletter">
+                                    <span class="checkmark"></span>
+                                    Subscribe to our newsletter for cloud tips, industry insights, and product updates
+                                </label>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="privacy" name="privacy" required>
+                                    <span class="checkmark"></span>
+                                    I agree to the <a href="privacy-policy.html" target="_blank">Privacy Policy</a> and
+                                    <a href="terms-of-service.html" target="_blank">Terms of Service</a> *
+                                </label>
+                                <span class="error-message" id="privacy-error"></span>
+                            </div>
+
+                            <div class="form-submit">
+                                <p class="required-note">Fields marked with * are required.</p>
+                                <button type="submit" class="cta-button primary">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-about">
+                    <h3>CloudWingz</h3>
+                    <p>Your partner in professional cloud hosting, web development, and IT solutions.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook" title="Follow us on Facebook">📘</a>
+                        <a href="#" aria-label="Twitter" title="Follow us on Twitter">🐦</a>
+                        <a href="#" aria-label="LinkedIn" title="Connect on LinkedIn">💼</a>
+                        <a href="#" aria-label="Instagram" title="Follow us on Instagram">📷</a>
+                        <a href="#" aria-label="YouTube" title="Subscribe to our channel">📺</a>
+                    </div>
+                </div>
+                <div class="footer-section footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section footer-services">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Cloud Hosting</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Project Managament</a></li>
+                        <li><a href="#">Migration Services</a></li>
+                        <li><a href="#">Consultation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section footer-contact">
+                    <h4>Contact Info</h4>
+                    <p>Delta, Nigeria</p>
+                    <p><strong>Email:</strong> info@cloudwingz.com</p>
+                    <p><strong>Phone:</strong> +234 807 320 8945</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CloudWingz. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="terms-of-service.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
